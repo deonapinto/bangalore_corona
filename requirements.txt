@@ -1,0 +1,17 @@
+Flask==1.1.2
+Flask-Mail==0.9.1
+joblib==0.13.2
+Jinja2==2.11.2
+json5==0.8.4
+jsonschema==3.0.1
+numpydoc==0.9.1
+numpy==1.19.0
+pandas==1.0.5
+py==1.8.0
+requests==2.24.0
+tblib==1.4.0
+gunicorn==20.0.4
+selenium==3.141.0
+urllib3==1.25.9
+Werkzeug==1.0.1
+schedule==0.6.0

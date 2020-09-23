@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+
+label:hover {
+	cursor: pointer;
+}
+.form {
+	padding-top: 80px;
+	max-width: 270px;
+	font-weight: normal;
+	line-height: 1.625;
+	font-family: 'Lora', serif;
+	margin: 8px auto;
+	z-index: 2;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 8px;
+	color: #007bff;
+  background: rgba(0,123,255,.0627451);
+	display:inline
+}
+
+h2 {
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	margin-bottom: 8px;
+	color: #DC143C;
+	letter-spacing: 0.4px;
+  background: rgba(226, 49, 40, 0.041);
+	display:inline
+}
+
+.mail{
+  outline: 0;
+  background: #1e1e30 ;
+  width: 76%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 35px;
+  border-radius: 5px;
+  color:#F0FFF0;
+}
+
+.location{
+  outline: 0;
+  background: #1e1e30;
+	color:#6c757d;
+  width: 76%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.submit{
+	background: rgba(0, 123, 255, 0.733);
+	color:black;
+	width: 76%;
+	border: 0;
+	border-color: #e4e4e4;
+	margin: 25px 0 10px;
+	font-weight: bold;
+	box-sizing: border-box;
+	font-size: 15px;
+	height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	cursor:pointer;
+}
+
+
+
+@media only screen and (min-width: 1200px){
+	.img {
+	  background: url('images/india.jpg');
+		background-repeat: no-repeat;
+	  background-size: auto;
+	  background-size:60% 100%;
+	  position: fixed;
+	  width: 60%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  z-index: -1;
+	}
+	.form {
+		padding-top: 80px;
+		max-width: 270px;
+		font-weight: normal;
+		line-height: 1.625;
+		margin: 8px auto;
+		padding-left: 40% ;
+		z-index: 2;
+
+	}
+}
+body {
+  height: 100%;
+  background-color:#161625;
+}
